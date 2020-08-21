@@ -1,8 +1,4 @@
-contador = 0
-nuevo_rango = range(0,101)
-for num in nuevo_rango:
-	if num % 2!=0:
-		print(num)
-		contador += 1
-print("la cantidad de numeros son: ",contador)
+numero= [num for num in range(0,101) num % 2!=0 num.count()]
+print(numero)
+print("la cantidad de numeros son:"num)
 	
